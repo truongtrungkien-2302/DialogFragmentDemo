@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,17 +8,48 @@
     tools:context=".FragmentActivity">
 
     <FrameLayout
+        android:id="@+id/fragmentID"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/fragmentID"
-        android:layout_above="@id/idMenu"/>
+        android:layout_above="@id/idMenu" />
 
     <LinearLayout
         android:id="@+id/idMenu"
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="50sp"
-        android:background="@color/black"
-        android:orientation="horizontal" />
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/tvHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#23232323"
+            android:gravity="center"
+            android:text="Home"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvAdd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#23232323"
+            android:gravity="center"
+            android:text="Add"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvDetail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#23232323"
+            android:gravity="center"
+            android:text="Detail"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout></layout>
