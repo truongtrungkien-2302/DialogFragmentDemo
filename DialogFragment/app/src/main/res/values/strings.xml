@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">DialogFragment</string>
+    <string name="menu_title_save">SAVE</string>
+    <string name="menu_title_cancel">CANCEL</string>
+    <string name="menu_bottem_show">Show Menu</string>
+    <string name="menu_bottem_sttack">Attack</string>
+    <string name="button_dialog_show">Show Dialog</string>
+    <string name="button_dialog_single">Dialog Single</string>
+    <string name="button_dialog_multi">Dialog Multi</string>
+    <string name="dialog_title">Thông báo</string>
+    <string name="dialog_content">Bạn muốn tắt ứng dụng hay không?</string>
+    <string-array name="shopping_item">
+        <item>Android</item>
+        <item>Kotlin</item>
+        <item>Flutter</item>
+        <item>IOS</item>
+    </string-array>
 </resources>
